@@ -1,0 +1,55 @@
+
+header {
+    margin-bottom: 20px;
+}
+
+header .main-nav {
+    margin-top: 30px;
+    float: right;
+}
+
+a {
+    color: coral;
+}
+
+a:hover {
+    color: #333;
+}
+
+.button {
+    background-color: coral;
+}
+
+.button:hover {
+    background-color: #333;
+}
+
+.showcase .callout {
+    text-align: center;
+    padding: 30px;
+    margin-bottom: 20px;
+}
+
+.product {
+    text-align: center;
+}
+
+.product .columns {
+    margin-bottom: 40px;
+}
+
+.product .button {
+    margin-top: 20px;
+}
+
+.vertical li {
+    border-bottom: 1px solid #333;
+}
+
+.vertical li:last-child {
+    border-bottom: none;
+}
+
+div.row.showcase {
+    margin-top: 20px;
+}

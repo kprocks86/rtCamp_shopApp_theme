@@ -1,0 +1,232 @@
+/*
+Theme Name: shopApp
+Theme URI: https://hotshotbyte.com
+Author: krunal patel
+Author URI: https://github.com/kprocks86
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: blog, two-columns, left-sidebar, accessibility-ready, custom-background, custom-colors, custom-header, custom-logo, custom-menu, editor-style, featured-images, microformats, post-formats, rtl-language-support, sticky-post, threaded-comments, translation-ready
+Text Domain: twentyfifteen
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+* {
+    font-family: 'Raleway', sans-serif;
+}
+
+h1, h2, h3, h4 {
+    font-family: 'Josefin Sans', sans-serif !important;
+}
+
+li {
+    list-style-type: none;
+}
+
+/*CAROUSEL & SEARCH AREA STYLES*/
+
+@media all and (min-width: 1000px) {
+    .top-bar-right > ul.menu {
+        margin-right: 16px;
+    }
+
+    .carousel .item {
+        background-color: #e6e6e6 !important;
+    }
+
+    .carousel-inner > .item > img {
+        margin: 0 auto !important;
+        width: 100% !important;
+        height: 500px !important;
+    }
+
+    .carousel {
+        margin: 0 6.5% !important;
+    }
+
+}
+
+@media all and (max-width: 643px) {
+    .top-bar-right {
+        padding: 0 20% 0 30%;
+    }
+
+    .top-bar-left {
+        padding: 0 20% 0 30%;
+    }
+
+    .carousel-caption p {
+        display: none;
+    }
+
+    .carousel-caption h3 {
+        font-size: 30px;
+    }
+
+}
+
+@media all and (min-width: 644px) {
+    .menu, .top-bar-right {
+        margin: 1.2em;
+    }
+
+}
+
+@media all and (min-width: 400px) and (max-width: 999px) {
+    .carousel-inner > .item > img {
+        margin: 0 auto !important;
+        width: 100% !important;
+        height: 350px !important;
+    }
+
+    div.callout.iframe {
+        display: none;
+    }
+
+    .product.end img {
+        max-height: 230px;
+        height: 90%;
+        width: 80%;
+    }
+
+    .product.end h3 {
+        font-size: 16px;
+    }
+}
+
+@media all and (max-width: 400px) {
+    .carousel {
+        display: none;
+    }
+
+    footer #foot-2 {
+        display: none;
+
+    }
+
+    div.row.single-product {
+        margin: 0 5px;
+    }
+
+    div.callout:last-child {
+        display: none;
+    }
+
+}
+
+@media all and (max-width: 600px) {
+
+    .comments {
+        display: none;
+    }
+
+    .comment-respond {
+        display: none;
+    }
+}
+
+.product.end {
+    border: 1px dashed blanchedalmond;
+    padding: 5px;
+}
+
+/*COMMENT BOX STYLING */
+li#comment-30.callout.secondary {
+    margin-left: 1.2em;
+    width: 47em;
+    height: 150px;
+}
+
+div#respond.comment-respond {
+    background-color: #EBEBEB;
+    padding: 1rem;
+    border: 1px solid #C2C2C2;
+}
+
+/* NORMAL CSS */
+
+.carousel-caption h3 {
+    color: black;
+}
+
+.menu-text {
+    font-size: 1.5em;
+}
+
+a {
+    color: coral;
+}
+
+a:hover {
+    color: #333;
+}
+
+.button {
+    background-color: coral;
+}
+
+.button:hover {
+    background-color: #333;
+}
+
+.showcase .callout {
+    text-align: center;
+    padding: 30px;
+    margin-bottom: 20px;
+}
+
+.product {
+    text-align: center;
+}
+
+.product .columns {
+    margin-bottom: 40px;
+}
+
+.product .button {
+    margin-top: 20px;
+}
+
+.vertical li {
+    border-bottom: 1px solid #333;
+}
+
+.vertical li:last-child {
+    border-bottom: none;
+}
+
+footer {
+    background: #333;
+    color: coral;
+    height: auto;
+    padding: 10px;
+    display: -moz-box;
+}
+
+footer p {
+    text-align: -moz-center;
+}
+
+footer ul.list-group li {
+    color: #333333;
+}
+
+footer ul.list-group {
+    margin-left: 0px;
+}
+
+footer div.callout {
+    display: grid;
+    width: 30%;
+
+}
+
+#footid1 {
+    display: inline-grid;
+}
+
+#footid1 a span {
+    font-family: 'Raleway', sans-serif;
+}
