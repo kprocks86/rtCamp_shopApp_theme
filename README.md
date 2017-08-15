@@ -68,6 +68,11 @@ Here are some features of the theme:
 * it display right after the slider in home page
 * it is simple a box in which it display title , discription & button. 
 
+## Screenshot
+
+1. Homepage.
+![Post Editor Meta Box](https://github.com/kprocks86/rtCamp_shopApp_theme/blob/master/screenshot/screenshot.png)
+
 
 ## Changelog
 
