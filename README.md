@@ -1,4 +1,4 @@
-shopApp rtcamp Theme Assignment
+rtcampOne rtcamp Theme Assignment
 ==================
 
 **Contributor:** Krunal Patel
@@ -33,7 +33,7 @@ Here are some features of the theme:
 
 ## Installation
 
-1. Upload the theme files to the `/wp-content/themes/shopApp` directory, or from the 'Themes' section in your dashboard (Go to `Themes > Add New > Upload`) upload zip file.
+1. Upload the theme files to the `/wp-content/themes/rtcampOne` directory, or from the 'Themes' section in your dashboard (Go to `Themes > Add New > Upload`) upload zip file.
 2. Activate the theme through the 'Appearance > Themes' screen in the WordPress.
 
 ## Slider Information :
