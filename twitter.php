@@ -3,13 +3,13 @@
 require_once get_template_directory() . '/lib/twitter-widget/twitteroauth.php';
 
 
-$twitter_customer_key = 'sSX9hcoGsabB2Ay3b4edxFtft';
+$twitter_customer_key = 'Enter key';
 
-$twitter_customer_secret = 'c27ZpRNtEGdwgco2pBE4g2XbHeAt6TcrQrk8HQ9lIsSPfUziZZ';
+$twitter_customer_secret = 'enter secret';
 
-$twitter_access_token = '4179367623-oOzb3vPaDJ4joadIcPIRTnspXUV5Kcbqim9bL2V';
+$twitter_access_token = 'enter token';
 
-$twitter_access_token_secret = 'MGJTJbbObZrPRO0pcQKHr2l4k92apCa4a4XzaqpaD51vI';
+$twitter_access_token_secret = 'token secret enter';
 
 $connection = new TwitterOAuth( $twitter_customer_key, $twitter_customer_secret, $twitter_access_token, $twitter_access_token_secret );
 $x          = 0;

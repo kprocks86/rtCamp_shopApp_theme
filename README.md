@@ -23,7 +23,7 @@ Here are some features of the theme:
 * Social link widget
 * Showcase widget for important instructions
 * Ourpartners and specified youtube videos sliders
-**two extra widget are provided twitter and facooklike box as a widget**
+**two extra widget are provided twitter and facebook like box as a widget**
 
 **Important Links Used as Library**
 * Foundation 6 - Responsive Design CSS FrameWork
