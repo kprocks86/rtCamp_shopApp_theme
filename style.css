@@ -1,5 +1,5 @@
 /*
-Theme Name: shopApp
+Theme Name: rtcampOne
 Theme URI: https://hotshotbyte.com
 Author: krunal patel
 Author URI: https://github.com/kprocks86
@@ -39,15 +39,20 @@ li {
     .carousel-inner > .item > img {
         margin: 0 auto !important;
         width: 100% !important;
-        height: 500px !important;
+        height: 350px !important;
     }
 
     .carousel {
-        margin: 0 6.5% !important;
+        margin: 0 0 !important;
     }
 
 }
 
+@media all and (max-width: 1000px){
+    #carouselYoutubeIndicators{
+        display: none;
+    }
+}
 @media all and (max-width: 643px) {
     .top-bar-right {
         padding: 0 20% 0 30%;
@@ -78,7 +83,7 @@ li {
     .carousel-inner > .item > img {
         margin: 0 auto !important;
         width: 100% !important;
-        height: 350px !important;
+        height: 300px !important;
     }
 
     div.callout.iframe {
@@ -229,4 +234,14 @@ footer div.callout {
 
 #footid1 a span {
     font-family: 'Raleway', sans-serif;
+}
+.navsec {
+    background-color: #DAA520 !important;
+}
+
+h4{
+    background-color: #ffebcd;padding:10px;border-left:15px solid #daa520;
+}
+#hello{
+    display: grid;
 }

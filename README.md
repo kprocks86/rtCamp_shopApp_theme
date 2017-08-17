@@ -7,23 +7,23 @@ shopApp rtcamp Theme Assignment
 
 **License:** [GPLv2 or later](http://www.gnu.org/licenses/gpl-2.0.html).
 
-**Tags:** right-sidebar, flexible-header, mobile-ready, custom-menu, custom-logo, featured-images, footer-widgets & sidebar ,custom-post-types-slider 
+**Tags:** right-sidebar, flexible-header, mobile-ready, custom-menu, custom-logo, featured-images, footer-widgets & sidebar ,custom-post-types-slider,custom post type , two menubar.
 
 ## Description ##
 rtCamp Wordpress Assignment
-* it is an eCommerce site build with foundation 6 .
-* it is an assignment of rtcamp.
+* it is an rtcamp assignment site build with foundation 6 .
 * We can manage logo, custom post type slider, and widgets cool!.
 * Easy to setup, integrate and use.
 
 Here are some features of the theme:
 
-* Custom post types slider
+* Custom post types (Our partners, Exhibition, Our work)
 * Latest Tweets with provided username
 * Facebook like box with provided username
 * Social link widget
 * Showcase widget for important instructions
-
+* Ourpartners and specified youtube videos sliders
+**two extra widget are provided twitter and facooklike box as a widget**
 
 **Important Links Used as Library**
 * Foundation 6 - Responsive Design CSS FrameWork
@@ -45,7 +45,13 @@ Here are some features of the theme:
 * create categories name="slider" and only this categories post will displayed in slider .
 * when writing the post if you want to that post appear in slider then it must be in slider category
 * slider shows maximum four post 
-
+## custom post type Info
+**partners**
+* In this section, We can add and edit partners and those partner's featured images will be displayed as a slider on the homepage.
+**work**
+* In this section, We can add and edit works that company has been doing and featured images of most recent works will be displayed as a main slider on the homepage.
+**exhibitions**
+* In this section, We can add and edit the information of all exhibitions and visitors can access full information of any exhibition from homepage.
 
 ## Widgets Information:
 
@@ -68,6 +74,15 @@ Here are some features of the theme:
 * it display right after the slider in home page
 * it is simple a box in which it display title , discription & button. 
 
+**news category**
+* Latest news will be displayed along with user selected post.
+* You can add this widget in Wordpress Dashboard `Appearance > Widgets` and select "News widget" in the sidebar or footer section.
+**important links**
+* You can add this widget in Wordpress Dashboard `Appearance > Widgets` and select "Important Links" in the sidebar or footer section.
+* It will display important links in the footer or sidebar section.
+
+## Themepanel Page
+* From theme panel page, you can choose logo, add youtube videos links, facebook page username, twitter profile and sticky post.
 ## Screenshot
 
 1. Homepage.

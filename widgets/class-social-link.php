@@ -24,13 +24,13 @@ class social_link_Widget extends WP_Widget {
 		$FB_username    = $instance['FB_username'];
 		$Insta_username = $instance['Insta_username'];
 		$Tw_username    = $instance['Tw_username'];
-		echo $args['before_widget'];
+		echo '<div id="hello">';
 		if ( ! empty( $title ) ) {
 			echo $args['before_title'] . $title . $args['after_title'];
 		}
 		//DISPLAY CONTENT
 		echo $this->getContent( $FB_username, $Insta_username, $Tw_username );
-		echo $args['after_widget'];
+		echo '</div>';
 	}
 
 	public function getContent( $FB_username, $Insta_username, $Tw_username ) {

@@ -28,20 +28,33 @@
 				<?php if ( has_custom_logo() ) { ?>
                     <li class="menu-text" role="menuitem"><?php the_custom_logo(); ?></li>
 				<?php } else { ?>
-                    <li class="menu-text" role="menuitem">shopApp</li>
+					<li ><?php  echo '<img src="'. get_option("theme_rtcampOne_logo") . '" alt="logo">';?></li>
 				<?php } ?>
 
             </ul>
         </div>
         <div class="top-bar-right">
-            <ul class="menu">
+            <ul class="menu" >
                 <li role="menuitem"><?php wp_nav_menu( array(
 						'theme_location'  => 'primary',
-						'container_class' => 'menu simple main-nav',
+						'container_class' => 'menu simple main-nav'
 					) );
 					?>
                 </li>
             </ul>
         </div>
+
+    </div>
+</div>
+<div class="top-bar navsec ">
+    <div class="row navsec">
+        <ul class="menu navsec ">
+            <li role="menuitem "><?php wp_nav_menu( array(
+					'theme_location' => 'another-menu',
+					'container_class' => ''
+				) );
+				?>
+            </li>
+        </ul>
     </div>
 </div>

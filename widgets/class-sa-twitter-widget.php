@@ -49,7 +49,7 @@ class Sa_Twitter_widget extends WP_Widget {
 		$connection = new TwitterOAuth( $twitter_customer_key, $twitter_customer_secret, $twitter_access_token, $twitter_access_token_secret );
 		$x          = 0;
 		$my_tweets  = $connection->get( 'statuses/user_timeline', array(
-			'screen_name' => $instance["username"],
+			'screen_name' => 'echo get_option("twitter_profile");',
 			'count'       => 25
 		) );
 
