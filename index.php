@@ -75,10 +75,14 @@
         </div>
 
 
-		<?php $slider = new WP_Query( 'category_name=news&posts_per_page=6' );
-		while ( $slider->have_posts() ): $slider->the_post(); ?>
-            <p><?php the_title(); ?></p>
-		<?php endwhile; ?>
+		<div class="row">
+            <div class="small-12">
+                <?php $slider = new WP_Query( 'category_name=news&posts_per_page=6' );
+                while ( $slider->have_posts() ): $slider->the_post(); ?>
+                    <li><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></li>
+                <?php endwhile; ?>
+            </div>
+        </div>
 
     </div>
 
