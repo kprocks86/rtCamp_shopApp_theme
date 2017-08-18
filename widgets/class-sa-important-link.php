@@ -37,7 +37,8 @@ class importantLink_Widget extends WP_Widget {
 	}
 
 	public function getContent( $link1,$link2,$link3,$link4,$link5 ) {
-		$output = '<ul><li>' . $link1 . '</li><li>' . $link2 . '</li><li>'. '</li><li>' . $link3 . '</li><li>'. '</li><li>' . $link3 . '</li><li>'. '</li><li>' . $link5 . '</li>';
+				$output = '<ul><li><a href="' . $link1 . '">'. $link1.'</a></li><li><a href="'. $link2.'">'. $link2.'</a></li><li><a href="'. $link3.'">'. $link3.'</a></li><li><a href="'.$link4.'">'. $link4.'</a></li><li><a href="'.$link5.'">'. $link5.'</a></li></ul>';
+
 
 		return $output;
 	}

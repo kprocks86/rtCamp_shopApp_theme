@@ -245,3 +245,6 @@ h4{
 #hello{
     display: grid;
 }
+footer ul li a:hover{
+    color: #fff;
+}
